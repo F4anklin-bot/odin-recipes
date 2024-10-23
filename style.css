@@ -1,0 +1,64 @@
+html body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(63, 30, 30, 0.699);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    min-height: 100vh;
+}
+.title-container{
+    display: flex;
+    justify-content: center;
+}
+
+.title{
+    text-align: center;
+    padding: 12px;
+    border: solid;
+    border-radius: 50px;
+}
+.recettes{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    font-size: 20px;
+}
+.recettes a{
+    text-decoration :underline;
+    color: black;
+    text-size-adjust: 50px;
+}
+.bande{
+    border: 2px solid black;
+    padding: 30;
+    margin: 20px;
+    justify-content: flex-start;
+    border-radius: 20px;
+    margin-right: 1100px;
+}
+.description{
+    text-align: center;
+    padding: 0;
+    color: ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.plats{
+    display: flex;
+    justify-content: space-around;
+}
+.repas{
+    width: 300px;
+    height: 300px;
+    border: solid yellow;
+    border-radius: 20px;
+}
+figcaption{
+    text-align: center;
+}
